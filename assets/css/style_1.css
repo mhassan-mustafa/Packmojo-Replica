@@ -1,0 +1,332 @@
+body {
+    font-family: 'poppins';
+}
+
+/* navigation bar */
+
+.navbar {
+    z-index: 100;
+}
+
+.product-div-1 {
+    display: none;
+    opacity: 1;
+    left: 0;
+    z-index: 100;
+    padding: 60px 20px;
+}
+
+.navitem-1:hover .product-div-1 {
+    display: block;
+    opacity: 1;
+}
+
+.nav-bar .explore {
+    height: 35px;
+    width: 200px;
+    font-size: 13px;
+    background-color: #00C64D;
+}
+
+/* Section 1 */
+
+/* for home page*/
+
+.home .section-1 {
+    padding: 75px 0;
+    /* margin-top: 60px; */
+}
+
+.home .section-1 .main-heading {
+    font-size: 50px;
+    line-height: 70px;
+}
+
+.home .section-1 .para {
+    font-size: 25px;
+    line-height: 40px;
+}
+
+@media (min-width: 1200px) {
+    .home .section-1 .main-heading {
+        font-size: 60px;
+        line-height: 70px;
+    }
+
+    .home .section-1 .para {
+        font-size: 30px;
+        line-height: 40px;
+    }
+}
+
+.home .section-1 .products {
+    height: 35px;
+    width: 180px;
+    font-size: 15px;
+    background-color: #00C64D;
+}
+
+/* for about page */
+
+.about .section-1{
+    padding: 30px 0;
+}
+
+.about .section-1 .heading{
+    padding-top: 70px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+/* section 2 */
+
+/* for home page */
+
+.home .section-2 {
+    padding: 75px 0;
+}
+
+.home .section-2 .for-startups .para {
+    font-size: 12px;
+}
+
+/* for about page */
+
+.about .section-2{
+    padding: 75px 0;
+}
+
+.about .section-2 .para{
+    font-size: 15px;
+}
+
+/* section 3 */
+
+.home .section-3 {
+    padding: 75px 0;
+}
+
+.home .section-3 .enterprise .para {
+    font-size: 12px;
+}
+
+/* section-4 */
+
+.home .section-4 {
+    padding: 75px 20px;
+}
+
+.home .section-4 .card-para {
+    font-size: 14px;
+}
+
+.home .section-4 .card-para a {
+    color: #16b644;
+}
+
+.home .section-4 .explore {
+    height: 35px;
+    width: 200px;
+    font-size: 13px;
+    background-color: #00C64D;
+}
+
+/* section 5 */
+.home .section-5 {
+    padding: 75px 20px;
+}
+
+.home .section-5 .dropdown {
+    position: relative !important;
+    z-index: 1;
+}
+
+.home .section-5 .dropdown p.fw-bold {
+    cursor: pointer;
+}
+
+.home .section-5 .dropdown-menu {
+    position: relative !important;
+    transition: transform 1s ease;
+    margin-top: -45px !important;
+    inset: 0px auto auto 0px !important;
+    transform: none !important;
+    top: 30px !important;
+}
+
+.home .section-5 .dropdown-menu p {
+    font-size: 15px;
+}
+
+.home .section-5 .pimg {
+    display: none;
+}
+
+/* section 6 */
+
+.home .section-6 {
+    padding: 75px 22px;
+}
+
+.home .section-6 .trusted {
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.home .section-6 .trusted .trusted-img {
+    transition: transform 0.5s ease;
+}
+
+
+.home .section-6 .trusted:hover .trusted-img {
+    transform: scale(1.08);
+    transition: transform 0.25s ease;
+}
+
+.home .section-6 .see-showcase {
+    height: 40px;
+    width: 210px;
+    font-size: 15px;
+    background-color: #00C64D;
+}
+
+.home .section-6 .inner-div {
+    position: absolute;
+    background-color: #DEDDDF;
+    bottom: 0;
+    width: 100%;
+    padding: 8px 16px;
+    font-size: 12px;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.home .section-6 .trusted:hover .inner-div {
+    opacity: 0.95;
+    transition: all 0.5s;
+}
+
+/* section 7 */
+
+.home .section-7 p {
+    line-height: 32px;
+}
+
+.home .section-7 .stars {
+    color: #FB923C;
+}
+
+/* section 8 */
+
+.home .section-8 {
+    padding: 75px 22px;
+}
+
+.home .section-8 p {
+    font-size: 14px;
+}
+
+.home .section-8 .view {
+    height: 40px;
+    width: 270px;
+    font-size: 15px;
+    background-color: #00C64D;
+}
+
+/* section-9 */
+
+.section-9 div {
+    padding: 150px 22px;
+}
+
+.section-9 h1 {
+    font-size: 55px;
+}
+
+.section-9 .shop {
+    height: 40px;
+    width: 170px;
+    font-size: 15px;
+    background-color: #00C64D;
+}
+
+.section-9 .pack {
+    height: 40px;
+    width: 170px;
+    font-size: 15px;
+    border: 1px solid black;
+}
+
+/* footer */
+
+.footer {
+    padding-top: 90px;
+    background-color: #374151;
+    font-size: 12px;
+    list-style: none;
+}
+
+.footer a:hover {
+    color: #16b644 !important;
+}
+
+/* login page */
+
+.login{
+    background-color: #333333;
+}
+
+.login .main-div{
+    height: 300px;
+    width: 60%;
+    border-radius: 6px;
+}
+
+.login .internal-div{
+    max-width: 30rem;
+}
+
+.login .small-para{
+    color: #A2A9B4;
+    font-size: 13px;
+}
+
+.login form{
+    font-size: 13px;
+}
+
+.login .email{
+    height: 35px;
+    padding: 10px;
+    border: 1px#d2d4d8 solid;
+}
+
+.login .sub-btn{
+    background-color: #1FDB83;
+    height: 40px;
+}
+
+.login .signup-link{
+    color: #16b644;
+    font-size: 13px;
+}
+
+.login .google-btn{
+    border: 1px solid #b4b6b9;
+}
+
+.login .google-logo{
+    height: 20px;
+}
+
+.login .last-para{
+    color: #A2A9B4;
+    font-size: 13px;
+}
+
+.login .privacy{
+    color: #A2A9B4;
+}
